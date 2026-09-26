@@ -4,6 +4,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: roboto;
 
 }
 
@@ -86,5 +87,41 @@ border: 1px solid #772FD3;
 border-radius: 20px;
 padding-top: 13px;
 padding-bottom: 13px;
+
+}
+
+.convert{
+
+gap: 10px;
+
+}
+
+.box-result{
+
+display: grid;
+place-items: center;
+
+}
+
+.arrow{
+
+margin-top: 14px;
+margin-bottom: 14px;
+height: 60px;
+
+}
+
+.img-br{
+
+height: 55px;
+width: 55px;
+
+}
+
+.value{
+
+color: #555555;
+font-weight: 700;
+font-size: 20px;
 
 }
