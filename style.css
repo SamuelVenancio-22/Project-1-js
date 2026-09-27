@@ -79,6 +79,21 @@ height: 48px;
 border-radius: 5px;
 color: #ffff;
 margin-bottom: 36px;
+transition: 0.3s; 
+cursor: pointer;
+}
+
+button:hover{
+
+background-color: rgba(85, 85, 85, 1);
+transform: scale(1.0);
+
+}
+
+button:active{
+
+background: black;
+
 }
 
 .section-2{
@@ -86,20 +101,16 @@ margin-bottom: 36px;
 border: 1px solid #772FD3;
 border-radius: 20px;
 padding-top: 13px;
-padding-bottom: 13px;
+padding-bottom: 15px;
 
 }
 
 .box-value{
 
-display: flex;
-justify-content: center;
-flex-direction: column;
-margin-left: 130px;
-gap: 2px;
+display: grid;
+place-items: center;
 
 }
-
 
 .value{
 
@@ -107,21 +118,19 @@ color: rgba(85, 85, 85, 1);
 font-weight: 700;
 font-size: 20px;
 
-
-
 }
 
 .arrow{
 
-margin-top: 15px;
-margin-bottom: 15px;
+margin-top: 14px;
+margin-bottom: 14px;
+height: 60px;
 
 }
 
 .br-flag{
-
+    
 height: 55px;
 width: 55px;
 
 }
-
