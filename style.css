@@ -23,12 +23,6 @@ margin: 16px auto;
 
 }
 
-img{
-
-width: 44px;
-height: 44px;
-
-}
 
 main{
 
@@ -96,6 +90,13 @@ background: black;
 
 }
 
+img{
+
+width: 44px;
+height: 44px;
+
+}
+
 .section-2{
 
 border: 1px solid #772FD3;
@@ -104,6 +105,7 @@ padding-top: 13px;
 padding-bottom: 15px;
 
 }
+
 
 .box-value{
 
