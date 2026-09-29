@@ -113,7 +113,7 @@ place-items: center;
 
 }
 
-.value{
+.valueToConvert, .ValueConverted{
 
 color: rgba(85, 85, 85, 1);
 font-weight: 700;
